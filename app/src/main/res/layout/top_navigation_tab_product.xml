@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_all_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_all_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="전체"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorEssential"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_drawing_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_drawing_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="드로잉"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorHomeBlack"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_painting_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_painting_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="페인팅"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorHomeBlack"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_oriental_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_oriental_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="동양화"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorHomeBlack"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_mixed_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_mixed_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="혼합매체"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorHomeBlack"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_craft_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_craft_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="조형/공예"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorHomeBlack"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/btn_top_navi_product_photo_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:id="@+id/tv_top_navi_product_photo_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="사진"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/notosanscjkkr_regular"
+                android:textColor="@color/colorHomeBlack"
+                android:textSize="17sp"/>
+    </RelativeLayout>
+</LinearLayout>
